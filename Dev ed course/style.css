@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+h1 {
+  color: rgb(7, 61, 105);
+}
+.article-text {
+  font: italic;
+  color: chocolate;
+}
+#logo1 {
+  font: italic;
+  color: darkgreen;
+}
+#logo2 {
+  font: bold;
+  color: darkgreen;
+}
+.list-st + ol {
+  color: coral;
+}
+.nav-links > li {
+  color: fuchsia;
+}
+/*priority in css id->class->tag*/
+/*margin and padding*/
+button {
+  margin: 1rem 15rem;
+  padding: 1rem 2rem;
+  background: rgb(64, 64, 231);
+  color: rgb(241, 241, 243);
+  border: 0.2rem solid rgb(64, 64, 231);
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+/*Box Model*/
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+/*css units of size dynamic 1rem=16px*/
+.article-text {
+  font-size: 2.4rem;
+  text-align: justify;
+}
